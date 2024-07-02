@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 02 Jul 2024 pada 07.40
+-- Generation Time: 02 Jul 2024 pada 08.46
 -- Versi Server: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -39,7 +39,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`idadmin`, `username`, `password`, `namalengkap`, `level`) VALUES
-(0, '', '21232f297a57a5a743894a0e4a801fc3', 'Putra', 'administrator');
+(0, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'Putra', 'administrator');
 
 -- --------------------------------------------------------
 
