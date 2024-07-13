@@ -133,8 +133,9 @@ include 'core/session.php';
 			<!-- BEGIN Submenu -->
 			<ul class="submenu">
 				<li><a href="index.php?p=cetaklaporan">Cetak Laporan </a></li>
+				<li><a href="index.php?p=laporanpenyewaan">Cetak Laporan Penyewaan</a></li>
 			</ul>
-			<!-- END Submenu -->
+			
 		</li>
 
 	</ul>
