@@ -88,6 +88,19 @@ include 'core/session.php';
                         <label>Alamat Pengiriman :</label>
                         <textarea class="form-control" required autofocus name="alamat"></textarea>
                     </div>
+                    <div class="form-group">
+                        <label>Jenis Transaksi</label>
+                        <select class="form-control" name="jenis" id="jenis" required onchange="toggleRentalFields()">
+                            <option value="penjualan">Penjualan</option>
+                            <option value="penyewaan">Penyewaan</option>
+                        </select>
+                    </div>
+                    <div class="form-group" id="rental-fields" style="display:none;">
+                        <label>Tanggal Awal Sewa:</label>
+                        <input type="date" class="form-control" name="tgl_awal_sewa">
+                        <label>Tanggal Akhir Sewa:</label>
+                        <input type="date" class="form-control" name="tgl_akhir_sewa">
+                    </div>
             </div>
             <br><br>
             <div class="clearfix"></div>
@@ -103,3 +116,15 @@ include 'core/session.php';
         </div>
     </div>
 </div>
+
+<script>
+function toggleRentalFields() {
+    var jenis = document.getElementById('jenis').value;
+    var rentalFields = document.getElementById('rental-fields');
+    if (jenis == 'penyewaan') {
+        rentalFields.style.display = 'block';
+    } else {
+        rentalFields.style.display = 'none';
+    }
+}
+</script>

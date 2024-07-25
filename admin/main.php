@@ -164,4 +164,8 @@ if ($p=='cetaklaporan') {
 	include_once('laporan/form.php');
 }
 
+if ($p=='laporanpenyewaan') {
+	include_once('penyewaan/form.php');
+}
+
 ?>

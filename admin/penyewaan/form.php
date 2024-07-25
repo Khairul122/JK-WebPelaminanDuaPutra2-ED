@@ -15,10 +15,10 @@
 			<span class="divider"><i class="fa fa-angle-right"></i></span>
 		</li>
 		<li>
-			<a href="index.php?p=laporan">Daftar laporan</a>
+			<a href="index.php?p=laporan">Daftar laporan penyewaan</a>
 			<span class="divider"><i class="fa fa-angle-right"></i></span>
 		</li>
-		<li class="active">Cetak Laporan</li>
+		<li class="active">Cetak Laporan Penyewaan</li>
 	</ul>
 </div>
 <!-- END Breadcrumb -->
@@ -72,7 +72,7 @@
 							</tr>
 						</table>
 						<br><br>
-						<button type="submit" class="btn btn-success" formaction="laporan/laporan_harian.php">Cetak Laporan Harian</button></a><br><br>
+						<button type="submit" class="btn btn-success" formaction="penyewaan/laporan_harian.php">Cetak Laporan Harian</button></a><br><br>
 						<button type="submit" class="btn btn-primary" formaction="laporan/laporan_bulanan.php">Cetak Laporan Bulanan</button></a><br><br>
 						<button type="submit" class="btn btn-warning" formaction="laporan/laporan_tahunan.php">Cetak Laporan Tahunan</button></a><br><br>
 					</div>

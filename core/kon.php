@@ -3,7 +3,7 @@ error_reporting(0);
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db   = "pelaminan";
+$db   = "umkm";
 
 $con = mysql_connect($host,$user,$pass);
 $sel = mysql_select_db($db);
